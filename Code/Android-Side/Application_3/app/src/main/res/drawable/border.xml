@@ -1,0 +1,6 @@
+<!-- res/drawable/border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#bceaf9" /> <!-- 背景颜色 -->
+    <stroke android:width="2dp" android:color="#000000" /> <!-- 边框宽度和颜色 -->
+    <corners android:radius="8dp"/> <!-- 圆角半径，可选 -->
+</shape>

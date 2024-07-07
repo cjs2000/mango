@@ -1,0 +1,5 @@
+Accuracy: 0.93875
+Class Ao Mango - Precision: 0.9620, Recall: 0.8850, F1 Score: 0.9219
+Class GuiQi Mango - Precision: 0.9526, Recall: 0.9050, F1 Score: 0.9282
+Class Jinhuang Mango - Precision: 0.9202, Recall: 0.9800, F1 Score: 0.9492
+Class Tainong Mango - Precision: 0.9249, Recall: 0.9850, F1 Score: 0.9540

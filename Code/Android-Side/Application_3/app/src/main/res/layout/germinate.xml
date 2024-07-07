@@ -1,0 +1,137 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Germinate"
+    android:background="#e1f4fa">
+    <!-- 设置顶部约束为ImageView的底部 -->
+
+    <!-- 设置顶部约束为选择图片按钮的底部 -->
+
+    <com.example.application_3.RoundImageView
+        android:id="@+id/imageView_g"
+        android:layout_width="360dp"
+        android:layout_height="490dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="Your Image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cameraButton_g"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/camera_selector"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_g" />
+
+    <Button
+        android:id="@+id/hisButton_g"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/his_selector"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_g" />
+
+    <Button
+        android:id="@+id/chooseButton_g"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/picturebutton_selector"
+        android:textSize="16dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_g" />
+
+    <Button
+        android:id="@+id/recognizeButton_g"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/sendbutton_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_g" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/load"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="80dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Album"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseButton_g" />
+
+    <TextView
+        android:id="@+id/Camera"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Camera"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cameraButton_g" />
+
+    <TextView
+        android:id="@+id/Send"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Recognize"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recognizeButton_g" />
+
+    <TextView
+        android:id="@+id/History"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="History"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hisButton_g" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

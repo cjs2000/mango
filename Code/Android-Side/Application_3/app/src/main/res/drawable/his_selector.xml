@@ -1,0 +1,5 @@
+<!-- res/drawable/button_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/his_2" /> <!-- 按下时显示 history_2 -->
+    <item android:state_pressed="false" android:drawable="@drawable/history" /> <!-- 释放按钮时显示 history -->
+</selector>

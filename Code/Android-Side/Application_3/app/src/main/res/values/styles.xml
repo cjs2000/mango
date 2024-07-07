@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="CustomButtonStyle">
+        <item name="android:background">@drawable/select</item>
+        <item name="android:textColor">@color/button_1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

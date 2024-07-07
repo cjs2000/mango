@@ -1,0 +1,7 @@
+['Ao Mango', 'GuiQi Mango', 'Jinhuang Mango', 'Tainong Mango']
+mode: test.  F1: 0.935 | Recall: 0.935 | Accuracy: 0.935: 100%|██████████| 800/800 [00:16<00:00, 49.45it/s]
+Accuracy: 0.93500
+Class Ao Mango - Precision: 0.9381, Recall: 0.9100, F1 Score: 0.9239
+Class GuiQi Mango - Precision: 0.8894, Recall: 0.9250, F1 Score: 0.9069
+Class Jinhuang Mango - Precision: 0.9639, Recall: 0.9350, F1 Score: 0.9492
+Class Tainong Mango - Precision: 0.9510, Recall: 0.9700, F1 Score: 0.9604

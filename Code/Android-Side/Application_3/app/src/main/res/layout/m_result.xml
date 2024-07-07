@@ -1,0 +1,115 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#e1f4fa">
+    <!-- 设置顶部约束为ImageView的底部 -->
+
+
+    <com.example.application_3.RoundImageView
+        android:id="@+id/View_1"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:contentDescription="Your Image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mango_name"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="2dp"
+        android:gravity="left"
+        android:text="mangoName:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/border"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/View_1" />
+
+    <TextView
+        android:id="@+id/con"
+        android:layout_width="350dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="2dp"
+        android:gravity="left"
+        android:text="mangoName:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/border"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mango_name" />
+
+    <TextView
+        android:id="@+id/mango_in"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="2dp"
+        android:gravity="left"
+        android:text="introduce:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/border"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/con" />
+
+
+    <TextView
+        android:id="@+id/runTime"
+        android:layout_width="270dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="runTime:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginStart="-6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mango_in" />
+
+    <Button
+        android:id="@+id/http_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/detail_selector"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mango_in" />
+
+    <TextView
+        android:id="@+id/de"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Detail"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/http_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
